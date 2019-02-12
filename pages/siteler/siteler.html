@@ -1,0 +1,24 @@
+
+ 
+  <ion-content>
+      
+      <div  style="height: 56px; background: linear-gradient(60deg, #6aa0a9, #004f88)  ">
+          <ion-buttons style="position: absolute; ">
+              <button  icon-only (click)="goBackHome()" style="background: transparent;margin-top:33%;font-size: 14px">
+                <ion-icon name="arrow-back" style="color: white"></ion-icon>
+              </button>
+            </ion-buttons>
+              <img  src="assets/imgs/tebas_logo.png" >
+      </div>  
+    <ion-list class="site_">
+      
+        <ion-item *ngFor="let key of result"  (click)="blokSayfa(id)">
+            <button  ion-button round></button>&nbsp;<label>{{key.name}}</label>
+          </ion-item>
+          <br/>
+
+    </ion-list>
+   </ion-content>
+  
+
+   

@@ -1,0 +1,57 @@
+page-anaekran {
+    .scroll-content{
+       
+        
+        background-image: url('../assets/imgs/back_img.jpg');
+        background-repeat: no-repeat;
+       
+        background-size: cover;
+    }
+    
+    ion-img {
+                      
+        display: inline-block;
+        min-width: 223px;
+        min-height: 121px;
+        margin-bottom: -55px;
+        contain: strict;
+        background-color: transparent;
+        margin-top: 109px;
+    }  
+    
+    .button-full-md{
+    display: inline-table;
+    width: 346px;
+    background: linear-gradient(60deg, #65a1ab, #004f88);
+    color: #ffffff !important;
+    min-height: 54px;
+    padding: 10px;
+    border-radius: 12px !important;
+    font-weight: 500;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .2), 0 13px 24px -11px rgba(2, 2, 2, 0.6);
+    margin-top:87px;
+    text-align: left !important;
+    font-size: 20px;
+    margin-left:7px;
+    margin-right:-38px;
+    }
+    .anaekran_img .ion-img {
+        display: inline-block;
+        min-width: 223px;
+        min-height: 121px;
+        margin-bottom: -180px;
+        contain: strict;
+        margin-left: 61px;
+        margin-top: 109px;
+    }
+    .form2_{
+        margin-top: 15%;
+        text-align: center;
+        max-width: 100%;
+        
+    }
+    button ion-icon{
+        margin-left: -188px
+    }
+    
+}

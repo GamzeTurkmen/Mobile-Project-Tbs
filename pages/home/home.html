@@ -1,0 +1,34 @@
+
+<ion-content padding>
+
+  <div class="giris_res">    
+       <img  src="assets/imgs/tebas_logo.png" >
+   </div> 
+     
+       <ion-list>
+           
+           <ion-row >    
+                <ion-card style="width:29%"  *ngFor="let key of result" (click)="SearchSayfa(key.id)">
+                   <!--  <ion-card-header><span class="radius"></span></ion-card-header> -->
+                   <ion-card-content>{{key.name}} </ion-card-content> 
+                   
+                  </ion-card>        
+            </ion-row >  
+            
+        
+
+            
+            
+        </ion-list>
+
+
+       
+           
+       
+    
+</ion-content>
+ 
+
+
+
+

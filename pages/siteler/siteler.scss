@@ -1,0 +1,62 @@
+page-siteler {
+    
+     ion-img {
+        background:linear-gradient(60deg, #6aa0a9, #004f88);              
+        display: inline-block;
+        min-width: 10px;
+        min-height: 11px;
+        margin-bottom: -55px;
+        contain: strict;
+        margin-left: 50px;
+    }
+    .site_img img {
+        height: 75px;
+        padding: 10px 0;
+    }
+     img {
+        max-width: 86%;
+        max-height: 72%;
+        border: 0;
+        margin-left: 121px;
+        margin-top: 10px;
+    }
+    .item-md .item-button {
+        width: 42px;
+        padding: 0 0.6em;
+        height: 41px;
+        font-size: 1.7rem;
+        background-color: grey;
+    }
+    
+     .card-md {
+        border-radius: 7px;
+        width: 33%;
+        margin: 10px;
+        
+        width: calc(100% - 20px);
+        font-size: 1.4rem;
+        background: #fff;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    }
+    .button{
+    
+       background: #8c8c8c;
+       border-radius: 50%;
+       padding: 6px 13px 8px 13px;
+       color: white;
+       font-weight: 600;
+       margin-right: 10px;
+    }
+    .site_ ion-app.md [margin-top]  {
+        margin-top: 99px;
+    }
+    page-siteler .item-md .item-button {
+        width: 42px;
+        padding: 0 0.6em;
+        height: 41px;
+        font-size: 1.7rem;
+        background-color: grey;
+        margin-top: 0px;
+    }
+}

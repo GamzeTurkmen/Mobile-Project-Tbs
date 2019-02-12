@@ -1,0 +1,28 @@
+
+ 
+  <ion-content>
+      
+      <div  style="height: 56px; background: linear-gradient(60deg, #6aa0a9, #004f88)  ">
+          <ion-buttons style="position: absolute; ">
+              <button  icon-only (click)="daire()" style="background: transparent;margin-top:33%;font-size: 14px">
+                <ion-icon name="arrow-back" style="color: white"></ion-icon>
+              </button>
+            </ion-buttons>
+              <img  src="assets/imgs/tebas_logo.png" >
+      </div>  
+    <ion-list class="site_" *ngIf="sayaclar"  >
+     <ion-item *ngFor="let sayac of sayaclar">
+       <button  ion-button round (click)="SayacDetayaGit(sayac.id)">A</button>
+        &nbsp;<label>{{sayac.name}}</label>
+      </ion-item>
+      <br/>
+  
+    </ion-list>
+   </ion-content>
+  
+
+
+
+      
+      
+          

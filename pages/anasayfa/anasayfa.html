@@ -1,0 +1,64 @@
+
+
+<ion-header class="header_">
+    <ion-navbar >
+      <button ion-button menuToggle style="color:black">
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <meta charset="UTF-8"/>
+      <ion-title ></ion-title>
+      
+    </ion-navbar>
+  </ion-header> 
+
+  <ion-content padding >
+   <div  class="form_">
+      <ion-list>
+             
+            <br/>
+            <br/>
+  
+            <ion-item>
+                <ion-label>Başlangıç Tarihi</ion-label>
+                <ion-datetime displayFormat="MM/DD/YYYY"  [(ngModel)]="myDate"></ion-datetime>
+            </ion-item>
+            <br/>
+  
+            <ion-item>
+                <ion-label>Bitiş Tarihi</ion-label>
+                <ion-datetime displayFormat="MM/DD/YYYY"  [(ngModel)]="myDate"></ion-datetime>
+            </ion-item>
+            <br/>
+                  
+          <ion-row>
+            <ion-col class="signup-col">
+              <button   ion-button full (click)="onay()">GİRİŞ</button>
+              <br/>
+            </ion-col>
+          </ion-row>
+     </ion-list> 
+     
+     <ion-item>
+        <ion-label color="primary" fixed>Ad</ion-label>
+        <textarea></textarea>
+      </ion-item>
+     <br/>
+      <ion-item>
+          <ion-label color="primary" fixed>Yapısı</ion-label>
+          <textarea></textarea>
+        
+        </ion-item>
+        <br/>
+        <ion-item>
+            <ion-label color="primary" fixed>Tarih</ion-label>
+            <textarea></textarea>
+          </ion-item>
+          <br/>
+          <ion-item>
+              <ion-label color="primary" fixed>Detay</ion-label>
+              <textarea></textarea>
+            </ion-item>
+          
+   </div>
+  </ion-content> 
+     

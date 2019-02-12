@@ -1,0 +1,222 @@
+page-home {
+    .scroll-content{
+       
+        
+        background-image: url('../assets/imgs/back_img.jpg');
+        background-repeat: no-repeat;
+       
+        background-size: cover;
+        padding:0px;
+    }
+    
+    Span {
+        margin-left: 13px;
+        background:#032d42b0;
+        border-radius: 50%;
+        padding: 6px 13px 8px 13px;
+        color: white;
+        font-weight: 600;
+    }
+
+    
+    .button-md {
+        border-radius: 2px;
+        overflow: hidden;
+        height: 3.6rem;
+        font-size: 1.4rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: #fff;
+        
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1), background-color 300ms cubic-bezier(0.4, 0, 0.2, 1), color 300ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        margin: 0.4rem 0.2rem;
+        padding: 0 1.1em;
+      }
+      ion-img {  //yüklenen resimler
+
+        display: inline-block;
+          min-width: 223px;
+          min-height: 121px;
+          margin-bottom: -55px;
+          contain: strict;
+          margin-left: 50px;
+      }
+      .item-md { // butonların ayarları 
+        padding-left: 16px;
+        padding-right: 0;
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: normal;
+        text-transform: none;
+        color: #000;
+       
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+      }
+     .list-md {
+     
+        margin: -1px 0 16px;
+        margin-top: 38px;
+        margin-left: -17px;
+    
+}
+     ion-icon {
+        display: inline-block;
+        font-size: 1.2em;
+        display: inline-block;
+        font-size: 1.2em;
+        /* border-radius: 22px; */
+        display: inline-table;
+        width: 83%;
+        margin-right: 2%;
+        margin-top: 15px;
+        min-height: 40px;
+        background-color: white;
+        border-radius: 22px !important;
+        text-align: center;
+        padding: 14px 3px 3px 3px;
+ 
+ 
+ 
+    }
+
+    arama_cont button {
+        margin: 25px 0px 15px 0px;
+        border-radius: 0px;
+        border: none !important;
+        padding: 10px;
+        font-size: 18px;
+        background-color: #ffb619;
+        color: #232323;
+    }
+
+    page-home .item-md {
+       
+        padding-left: 21px;
+        padding-right: 0;
+        position: relative;
+        font-size: 1.6rem;
+        font-weight: normal;
+        text-transform: none;
+        color: #000;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    
+ /*   page-home .card-md {
+      
+        margin-left: 28px;
+        margin: 10px;
+        border-radius: 8px;
+        width: calc(100% - 20px);
+        font-size: 1.4rem;
+        background: WHITE;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      } */
+      .card-md {
+        width: 33%;
+        margin: 7px;
+        border-radius: 9px;
+        width: calc(100% - 20px);
+        font-size: 1.4rem;
+        background: #fff;
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+      }
+      img{
+        
+        max-width: 86%;
+        max-height: 72%;
+        border: 0;
+        margin-left: 122px;
+        margin-top: 10px;
+        
+        }
+        /*
+    .giris_div {
+        margin-left: -29px;
+        margin-right: -27px;
+        margin-top:-16px;
+
+    }
+    .giris_div .card-md{
+        border-radius: 9px;
+        min-height: 99px;
+    } */
+    .giris_res{
+        height: 56px; 
+        background: linear-gradient(60deg, #6aa0a9, #004f88);
+        width:150%;
+        align-items:center;
+        margin-top:-17px;
+        margin-left:-17px;
+    } 
+    ion-app.md [padding] .scroll-content {
+      padding: 0px;
+    }
+    
+    .card-header-md {
+        font-size: 1.6rem;
+        color: rgb(34, 34, 34);
+        padding: 16px;
+        
+    }
+    .iconic{
+        color:red;
+    }
+    
+    ion-icon {
+        background: transparent;
+        margin-top: -59%;
+        font-size: 26px;
+        margin-left: 1px;
+        color: white;
+        display: inline-table;
+        width: 83%;
+        margin-right: 2%;    
+        min-height: 40px;       
+        padding: 14px 3px 3px 3px;
+    }
+    ion-app.md [margin-top], ion-app.md [margin-top] .scroll-content {
+        margin-top: 10px;
+        margin-left: -9px;
+    }
+    .bar-buttons-md {
+        margin-top: 4px;
+        margin-left: -13px;
+        width: -2px;
+        /* size: 5px; */
+        font-size: 15px;
+    }
+    .card-content-md {
+        padding: 6px 18px;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        margin-left: 3px;
+    } 
+   
+    .row {
+        margin-left: 14px;
+        margin-right: -6px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+}

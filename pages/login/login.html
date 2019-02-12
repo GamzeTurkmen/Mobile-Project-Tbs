@@ -1,0 +1,44 @@
+<!--<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon> 
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header> -->
+
+
+<ion-content padding >
+  <div  class="form_">
+     <ion-list>
+            <div class="home_img">
+               <ion-img  src="assets/imgs/tebas_logo.png" ></ion-img>
+            </div>
+           <br/>
+           <br/>
+ 
+           <ion-item>
+             <ion-input value="kadirsaymadi@idealbilgi.com" type="text" placeholder="Kullanıcı Adınız" [(ngModel)]="mail"></ion-input>
+           </ion-item>
+           <br/>
+ 
+           <ion-item>
+             <ion-input value="123" type="password"placeholder="Şifreniz" [(ngModel)]="pass"></ion-input>
+           </ion-item>
+           <br/>
+                   
+           <ion-label class = "checkbox">
+             <input type = "checkbox">
+             <label >Beni Hatırla</label>
+           </ion-label>
+                 
+         <ion-row>
+           <ion-col class="signup-col">
+             <button   ion-button full (click)="login()">G&#304;R&#304;&#350;</button>
+             <br/>
+           </ion-col>
+         </ion-row>
+    </ion-list>  
+  </div>
+ </ion-content> 
+    

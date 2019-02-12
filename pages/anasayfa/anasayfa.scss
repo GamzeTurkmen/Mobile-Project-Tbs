@@ -1,0 +1,25 @@
+page-anasayfa {
+    
+    .scroll-content{
+       
+        
+        background-image: url('../assets/imgs/back_img.jpg');
+        background-repeat: no-repeat;
+       
+        background-size: cover;
+    }
+    ion-header {
+        left: -6px;
+        top: 0;
+        position: absolute;
+        z-index: 10;
+        display: block;
+        width: 100%;
+    }
+    .form_ .list-md {
+        margin: 24px 0 16px;
+    }
+    
+    
+    
+}

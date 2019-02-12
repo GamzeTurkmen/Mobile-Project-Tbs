@@ -1,0 +1,59 @@
+<ion-content padding>
+
+    
+        <button style="background: transparent; margin-left: 303px" icon-only (click)="kapatSayfa()">X</button>
+    
+     <br/>
+     <br/>
+    <div  >
+
+
+        <ion-row>
+            <ion-row>
+               <ion-label style="margin-left: 17px">En Son Okunan İndex:</ion-label>
+            </ion-row>
+            <ion-item >
+            <ion-label style="color:green;">{{data}}</ion-label>
+            </ion-item>
+      </ion-row>
+
+
+      <ion-row>
+          <ion-row>
+              <ion-label  style="margin-left: 17px" >En Son Okuma Tarihi:</ion-label>
+          </ion-row>
+          <ion-item>
+              <ion-label style="color:purple;">{{data1}}</ion-label>
+          </ion-item>
+      </ion-row>
+
+      <ion-row>
+          <ion-row>
+              <ion-label  style="margin-left: 17px" >Kıyas Yapılma Durumu:</ion-label>
+          </ion-row>
+          <ion-item>
+              <ion-label style="color:blue;">{{data2}}:</ion-label>
+          </ion-item>
+      </ion-row>
+
+      <ion-row>
+          <ion-row>
+              <ion-label  style="margin-left: 17px" >Geçen Dönemin Tüketimi:</ion-label>
+          </ion-row>
+          <ion-item>
+              <ion-label style="color:orangered;">{{data3}}</ion-label>
+          </ion-item>
+      </ion-row>
+
+  </div>
+      <br/>
+      <br/>
+
+   <ion-textarea placeholder="Yeni Sorgu Oluştur" ></ion-textarea>
+   <br/>
+   <button style="background-color: #3f8afd" ion-button (click)="gonder" >Gönder</button>
+
+     
+    
+</ion-content>
+
